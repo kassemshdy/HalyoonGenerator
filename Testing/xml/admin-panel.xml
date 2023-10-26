@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<admin-panel>
+	<menus>
+		<sidebar-menu>
+			<menu name="Dashboard">
+				<submenu name="Overview" link="/dashboard/overview">
+					<list type="table" filterable="true" paginated="true" items-per-page="10">
+						<fields>
+							<field name="Date" label="Date" />
+							<field name="Name" label="Name" />
+							<field name="Description" label="Description" />
+							<field name="Status" label="Status" />
+						</fields>
+						<!-- Define table data for the Overview page -->
+					</list>
+					<form display="popup">
+						<field name="Title" type="text" label="Title" />
+						<field name="Content" type="textarea" label="Content" />
+					</form>
+				</submenu>
+			</menu>
+
+			<menu name="Manage">
+				<submenu name="Products" link="/products/all">
+					<list type="table" filterable="true" paginated="true" items-per-page="20">
+						<fields>
+							<field name="Product ID" label="ID" />
+							<field name="Product Name" label="Name" />
+							<field name="Price" label="Price" />
+						</fields>
+						<!-- Define table data for All Products -->
+					</list>
+					<form display="standalone">
+						<field name="Product Name" type="text" label="Name" />
+						<field name="Price" type="number" label="Price" />
+						<field name="Category" type="popup choose" label="Category" />
+					</form>
+				</submenu>
+				<submenu name="Category" link="/categories/all">
+					<list type="cards" filterable="true" paginated="true" items-per-page="15">
+						<fields>
+							<field name="Category ID" label="ID" />
+							<field name="Category Name" label="Name" />
+						</fields>
+						<!-- Define card items for All Categories -->
+					</list>
+					<form display="drawer">
+						<field name="Category Name" type="text" label="Name" />
+					</form>
+				</submenu>
+			</menu>
+		</sidebar-menu>
+
+		<header-menu>
+			<menu name="Notifications" link="/notifications" />
+			<menu name="Messages" link="/messages" />
+		</header-menu>
+
+		<profile-menu>
+			<menu name="Profile" link="/profile" />
+			<menu name="Settings" link="/settings" />
+			<menu name="Logout" link="/logout" />
+		</profile-menu>
+	</menus>
+</admin-panel>
