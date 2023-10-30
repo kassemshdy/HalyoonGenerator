@@ -21,7 +21,7 @@
 			</menu>
 
 			<menu name="Manage">
-				<submenu name="Products" link="/products/all">
+				<submenu name="Customers" link="/products/all">
 					<list type="table" filterable="true" paginated="true" items-per-page="20">
 						<fields>
 							<field name="Product ID" label="ID" />

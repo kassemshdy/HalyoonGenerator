@@ -1,13 +1,13 @@
 /* Reset some default styles */
-body, ul, li, a {
+/*body, ul, li, a {
     margin: 0;
     padding: 0;
     list-style: none;
     text-decoration: none;
-}
+}*/
 
 /* Style the sidebar */
-.sidebar {
+/*.sidebar {
     width: 200px;
     background-color: #333;
     color: #fff;
@@ -16,56 +16,47 @@ body, ul, li, a {
     left: 0;
     height: 100%;
     overflow-y: auto;
-}
+}*/
 
 /* Style the sidebar menu items */
-.menu-item {
+/*.menu-item {
     padding: 12px 20px;
     border-top: 1px solid #444;
     cursor: pointer;
-}
+}*/
 
 /* Style the sidebar submenus */
-.submenu {
-    display: none;
+/*.submenu {
     background-color: #444;
     padding-left: 20px;
-}
+}*/
 
 /* Style the sidebar submenu items */
-.submenu-item {
+/*.submenu-item {
     padding: 10px 0;
-}
+}*/
 
 /* Hover effect for menu items */
-.menu-item:hover .submenu {
+/*.menu-item:hover .submenu {
     display: block;
-}
+}*/
 
 /* Style the content area */
-.content {
-    margin-left: 200px; /* Sidebar width */
-    padding: 20px;
-}
+/*.content {
+    margin-left: 200px;*/ /* Sidebar width */
+    /*padding: 20px;
+}*/
 
 /* Add some basic styles to links */
-a {
+/*a {
     color: #fff;
-}
+}*/
 
     /* Add hover effect to links */
-    a:hover {
+    /*a:hover {
         text-decoration: underline;
-    }
+    }*/
 
 /* Style the header */
-header {
-    background-color: #222;
-    color: #fff;
-    padding: 20px;
-}
-
-/* Style the main title */
-h1 {
-    font-size: 24px;
-}
+/*header {
+    background-color:*/
